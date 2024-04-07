@@ -24,7 +24,7 @@ export default function ShoppingCart() {
           <div className="mt-8 flex-1 overflow-y-auto">
             <ul className="-my-6 divide-y divide-gray-200">
               {cartCount === 0 ? (
-                <h1 className="py-6"> You Don't Have Any Items </h1>
+                <h1 className="py-6"> You Do not Have Any Items </h1>
 
               ): (
                 <>
